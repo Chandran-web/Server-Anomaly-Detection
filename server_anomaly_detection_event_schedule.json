@@ -1,0 +1,124 @@
+{
+  "project": "Server Anomaly Detection",
+  "seed": 41,
+  "duration_days": 14,
+  "reading_interval_minutes": 5,
+  "total_readings": 4032,
+  "anomalous_readings": 63,
+  "event_count": 16,
+  "event_schedule": [
+    {
+      "event_id": "spike_01",
+      "kind": "spike",
+      "start_index": 160,
+      "end_index_exclusive": 163,
+      "readings": 3
+    },
+    {
+      "event_id": "spike_02",
+      "kind": "spike",
+      "start_index": 442,
+      "end_index_exclusive": 444,
+      "readings": 2
+    },
+    {
+      "event_id": "spike_03",
+      "kind": "spike",
+      "start_index": 724,
+      "end_index_exclusive": 725,
+      "readings": 1
+    },
+    {
+      "event_id": "spike_04",
+      "kind": "spike",
+      "start_index": 1007,
+      "end_index_exclusive": 1010,
+      "readings": 3
+    },
+    {
+      "event_id": "spike_05",
+      "kind": "spike",
+      "start_index": 1289,
+      "end_index_exclusive": 1291,
+      "readings": 2
+    },
+    {
+      "event_id": "spike_06",
+      "kind": "spike",
+      "start_index": 1572,
+      "end_index_exclusive": 1573,
+      "readings": 1
+    },
+    {
+      "event_id": "spike_07",
+      "kind": "spike",
+      "start_index": 1854,
+      "end_index_exclusive": 1857,
+      "readings": 3
+    },
+    {
+      "event_id": "spike_08",
+      "kind": "spike",
+      "start_index": 2137,
+      "end_index_exclusive": 2139,
+      "readings": 2
+    },
+    {
+      "event_id": "spike_09",
+      "kind": "spike",
+      "start_index": 2419,
+      "end_index_exclusive": 2420,
+      "readings": 1
+    },
+    {
+      "event_id": "spike_10",
+      "kind": "spike",
+      "start_index": 2702,
+      "end_index_exclusive": 2705,
+      "readings": 3
+    },
+    {
+      "event_id": "spike_11",
+      "kind": "spike",
+      "start_index": 2984,
+      "end_index_exclusive": 2986,
+      "readings": 2
+    },
+    {
+      "event_id": "spike_12",
+      "kind": "spike",
+      "start_index": 3267,
+      "end_index_exclusive": 3268,
+      "readings": 1
+    },
+    {
+      "event_id": "spike_13",
+      "kind": "spike",
+      "start_index": 3549,
+      "end_index_exclusive": 3552,
+      "readings": 3
+    },
+    {
+      "event_id": "spike_14",
+      "kind": "spike",
+      "start_index": 3832,
+      "end_index_exclusive": 3835,
+      "readings": 3
+    },
+    {
+      "event_id": "level_shift_01",
+      "kind": "level_shift",
+      "start_index": 2160,
+      "end_index_exclusive": 2184,
+      "readings": 24
+    },
+    {
+      "event_id": "outage_01",
+      "kind": "outage",
+      "start_index": 3024,
+      "end_index_exclusive": 3033,
+      "readings": 9
+    }
+  ],
+  "note": "Synthetic dataset created for this project. Injected anomaly positions and labels are included in the CSV/XLSX."
+}
